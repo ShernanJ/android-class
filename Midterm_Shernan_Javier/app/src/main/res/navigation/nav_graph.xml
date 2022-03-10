@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="sheridan.javiersh.midtermtest.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="sheridan.javiersh.midtermtest.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/swimming"
+        android:name="sheridan.javiersh.midtermtest.Swimming"
+        android:label="fragment_swimming"
+        tools:layout="@layout/fragment_swimming" />
+    <fragment
+        android:id="@+id/jumping"
+        android:name="sheridan.javiersh.midtermtest.jumping"
+        android:label="fragment_jumping"
+        tools:layout="@layout/fragment_jumping" />
+    <fragment
+        android:id="@+id/hiking"
+        android:name="sheridan.javiersh.midtermtest.Hiking"
+        android:label="fragment_hiking"
+        tools:layout="@layout/fragment_hiking" />
+    <fragment
+        android:id="@+id/lifting"
+        android:name="sheridan.javiersh.midtermtest.Lifting"
+        android:label="fragment_lifting"
+        tools:layout="@layout/fragment_lifting" />
+    <fragment
+        android:id="@+id/biking"
+        android:name="sheridan.javiersh.midtermtest.Biking"
+        android:label="fragment_biking"
+        tools:layout="@layout/fragment_biking" />
+</navigation>

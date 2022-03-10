@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lecture8</string>
+    <string name="name">Name</string>
+    <string name="id">ID</string>
+    <string name="saveButton">Save</string>
+    <string name="clearButton">Clear</string>
+</resources>

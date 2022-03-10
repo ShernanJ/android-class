@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="sheridan.javiersh.midtermtest.MainActivity">
+    <item
+        android:id="@+id/action_swimming"
+        android:icon="@drawable/swimming"
+        android:title="@string/swimming"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_biking"
+        android:icon="@drawable/biking"
+        android:title="@string/biking"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_lifting"
+        android:icon="@drawable/lifting"
+        android:title="@string/lifting"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_jumping"
+        android:icon="@drawable/jumping"
+        android:title="@string/jumping"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_hiking"
+        android:icon="@drawable/hiking"
+        android:title="@string/hiking"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Shernan Midterm</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="swimming">Swimming</string>
+    <string name="biking">Biking</string>
+    <string name="lifting">Lifting</string>
+    <string name="jumping">Jumping</string>
+    <string name="hiking">Hiking</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="exercise_time">Exercise Time :)</string>
+    <string name="todo">TODO</string>
+    <string name="swimming_sports">swimming sports</string>
+    <string name="swimming_title">Swimming</string>
+    <string name="hiking_title">Hiking</string>
+    <string name="hiking_sports">hiking sports</string>
+    <string name="biking_title">Biking</string>
+    <string name="biking_sports">biking sports</string>
+    <string name="jumping_title">Jumping</string>
+    <string name="jumping_sports">jumping sports</string>
+    <string name="lifting_title">Lifting</string>
+    <string name="lifting_sports">lifting sports</string>
+</resources>
